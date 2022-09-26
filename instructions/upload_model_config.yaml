@@ -1,0 +1,8 @@
+email_address: abcd@abc.edu # YOUR (uploader's) email address. Used to track entry's ownership
+visual_description: High quality images of human faces  # What kind of images does your model generate?
+project_description: Nvidia's StyleGAN2 model trained on the Flickr-Faces-HQ Dataset  # Briefly describe how you produced the results
+family_name: StyleGAN2  # What architecture the model is based on
+github_link: https://github.com/NVlabs/stylegan2  # Link to the GitHub repo if applicable, or leave as empty
+download_link: https://drive.google.com/drive/folders/1QHc-yF5C3DChRwSdZKcx1w6K8JvSxQi7  # Link to where you can download the model
+display_name: Nvidia StyleGAN2 FFHQ Model # A user-friendly name for your model. This is the name shown to visitors. Matches ^[\w][\w\-_ ]*[\w]$.
+resolution: [512] # The output resolution(s) of your model.

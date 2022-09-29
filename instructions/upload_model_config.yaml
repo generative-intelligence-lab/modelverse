@@ -5,7 +5,7 @@ family_name: StyleGAN2  # What architecture the model is based on
 project_link: https://github.com/NVlabs/stylegan2  # Link to the GitHub repo if applicable, or leave as empty
 download_link: https://drive.google.com/drive/folders/1QHc-yF5C3DChRwSdZKcx1w6K8JvSxQi7  # Link to where you can download the model
 paper: https://arxiv.org/abs/1912.04958 # Link to the paper
-creator: [person a, person b] # If the model has been fine-tuned, fill in its creator's name(s). Leave empty if not fine-tuned.
+creator: [person a, person b] # If the model has been fine-tuned, fill in its creator's name(s). Leave empty list ([]) if not fine-tuned.
 bibtex: '@article{DBLP:journals/corr/abs-1912-04958,
   author    = {Tero Karras and
                Samuli Laine and

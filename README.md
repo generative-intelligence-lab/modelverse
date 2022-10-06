@@ -26,7 +26,7 @@ model, or a combination of these.
 **Qualitative results of model retrieval** Below we show model retrieval results with 3 different modalities - images, sketches, and text.
 
 <p align="center">
-<img src="images/main_result_v3.png" width="500px"/>
+<img src="images/main_result_v3.png" width="600px"/>
 </p>
 
 Our method also enables multimodal queries and using a model as a query.

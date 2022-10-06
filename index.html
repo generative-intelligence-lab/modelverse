@@ -1,0 +1,321 @@
+
+
+<html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+      <!--
+      <script src="./resources/jsapi" type="text/javascript"></script>
+      <script type="text/javascript" async>google.load("jquery", "1.3.2");</script>
+     -->
+    
+    <style type="text/css">
+      body {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight:300;
+        font-size:18px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1100px;
+        text-align: justify;
+      }
+      h1 {
+        font-weight:300;
+      }
+      h2 {
+        font-weight:300;
+      }
+      .disclaimerbox {
+        background-color: #eee;
+        border: 1px solid #eeeeee;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+        padding: 20px;
+      }
+      video.header-vid {
+        height: 140px;
+        border: 1px solid black;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+      }
+      img.header-img {
+        height: 140px;
+        border: 1px solid black;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+      }
+      img.rounded {
+        border: 0px solid #eeeeee;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+      }
+      a:link,a:visited
+      {
+        color: #1367a7;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #208799;
+      }
+      td.dl-link {
+        height: 160px;
+        text-align: center;
+        font-size: 22px;
+      }
+      .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+        box-shadow:
+                0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+                5px 5px 0 0px #fff, /* The second layer */
+                5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+                10px 10px 0 0px #fff, /* The third layer */
+                10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+                15px 15px 0 0px #fff, /* The fourth layer */
+                15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+                20px 20px 0 0px #fff, /* The fifth layer */
+                20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+                25px 25px 0 0px #fff, /* The fifth layer */
+                25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+        margin-left: 10px;
+        margin-right: 45px;
+      }
+      .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+        box-shadow:
+                0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+                5px 5px 0 0px #fff, /* The second layer */
+                5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+                10px 10px 0 0px #fff, /* The third layer */
+                10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 30px;
+        margin-bottom: 5px;
+      }
+      .vert-cent {
+        position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+      }
+      hr
+      {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+      }
+    </style>
+    
+    
+    
+        <title>Modelverse: Content-Based Search for Deep Generative Models</title>
+        <meta property="og:image" content="">
+        <meta property="og:title" content="Modelverse: Content-Based Search for Deep Generative Models">
+      </head>
+    
+      <body>
+            <br>
+              <center>
+                <span style="font-size:34px">Modelverse: Content-Based Search for Deep Generative Models</span><br><br>
+    
+              <table align="center" width="1050px">
+                <tbody><tr>
+                        <td align="center" width="205px">
+                  <center>
+                    <span style="font-size:20px"><a href="https://daohanlu.github.io/">Daohan Lu</a><sup>1*</sup></span>
+                    </center>
+                    </td>
+                        <td align="center" width="205px">
+                  <center>
+                    <span style="font-size:20px"><a href="http://peterwang512.github.io">Sheng-Yu Wang</a><sup>1*</sup></span>
+                    </center>
+                    </td>
+                        <td align="center" width="205px">
+                  <center>
+                    <span style="font-size:20px"><a href="https://nupurkmr9.github.io/">Nupur Kumari</a><sup>1*</sup></span>
+                    </center>
+                    </td>
+                        <td align="center" width="205px">
+                  <center>
+                    <span style="font-size:20px"><a href="">Rohan Agarwal</a><sup>1*</sup></span>
+                    </center>
+                    </td>
+                        <td align="center" width="175px">
+                  <center>
+                    <span style="font-size:20px"><a href="https://baulab.info/">David Bau</a><sup>2</sup></span>
+                    </center>
+                    </td>
+                        <td align="center" width="175px">
+                  <center>
+                    <span style="font-size:20px"><a href="http://cs.cmu.edu/~junyanz">Jun-Yan Zhu</a><sup>1</sup></span>
+                    </center>
+                    </td>
+                </tr>
+
+
+            </tbody></table>
+
+            
+    
+              <table align="center" width="700px">
+                <tbody>
+                  <tr><p>( * stands for equal contribution)</p></tr>
+                  <tr>
+                        <td align="center" width="100px">
+                  <center>
+                        <span style="font-size:20px"></span>
+                    </center>
+                    </td>
+                        <td align="center" width="250px">
+                  <center>
+                        <span style="font-size:20px"><sup>1</sup>CMU</span>
+                    </center>
+                    </td>
+                        <td align="center" width="250px">
+                  <center>
+                        <span style="font-size:20px"><sup>2</sup>Northeastern University</span>
+                    </center>
+                    </td>
+                        <td align="center" width="100px">
+                  <center>
+                        <span style="font-size:20px"></span>
+                    </center>
+                    </td>
+            </tr></tbody></table>
+    
+              <table align="center" width="700px">
+                <tbody><tr>
+    <!--                     <td align="center" width="50px">
+                  <center>
+                        <span style="font-size:18px"></span>
+                    </center>
+                    </td> -->
+                        <td align="center" width="200px">
+                  <center>
+
+                    <span style="font-size:20px">Code <a href=""> [GitHub]</a></span>
+                    </center>
+                    </td>
+                        <td align="center" width="200px">
+                  <center>
+
+                    <span style="font-size:20px">In Arxiv, 2022. <a href=""> <!-- [Paper] -->[Paper]</a></span>
+                    </center>
+                    </td>
+
+
+            
+            <table align="center" width="1000px">
+              <tbody><tr>
+                      <td width="400px">
+                        <br> <br> <br>
+                      <center><img src="files/teaser.jpg" width="800px"/></center>
+                      </td>
+                      </tr>
+                      </tbody></table>
+                <br>
+                We develop a content-based search engine for Modelverse, a model sharing platform that contains a diverse set of deep
+generative models, such as animals, landscapes, portraits, and art pieces. From left to right, our search algorithm enables queries (1st row)
+with four different modalities – text, images, sketches, and existing models. The 2nd and 3rd rows show the two top-ranked models. The
+color of each model icon implies the model type. Our method finds relevant models with similar semantic concepts in all modalities.
+                <br>
+              <br>
+          <hr>
+    
+            <center><h2>Abstract</h2></center>
+            The growing proliferation of pretrained generative models has made it infeasible for a user to be fully cognizant of every model that exists. To address this problem, we introduce the problem of content-based model retrieval: given a query and a large set of generative models, finding the models that best match the query. Because each generative model produces a distribution of images, we formulate the search problem as an optimization to maximize the probability of generating a query match given a model. We develop approximations to make this problem tractable when the query is an image, a sketch, a text description, another generative model, or a combination of the above. % multimodal query. 
+            We benchmark our methods in both accuracy and speed over a set of generative models. We further demonstrate that our model search can retrieve good models for image editing and reconstruction, few-shot transfer learning, and latent space interpolation. <br>
+
+            <hr><center><h2>Modelverse: search engine for generative models</h2></center>
+            
+            <center><a href="https://modelverse.cs.cmu.edu"><img src="files/modelverse.png" width="1000px"/></a></center> 
+            Click on the image to try out Modelverse!!<br><hr>
+            <br>
+
+            <center><h2 id="slides_video">Video</h2></center>
+            <p align="center">
+<!--                 <iframe width="560" height="315" src="https://www.youtube.com/embed/2m7_rbsO6Hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            </p>
+<!--               <center>
+                <span style="font-size:20px"><a href="https://drive.google.com/file/d/10BD5-7WewE5ASyVqUUl65LopF8e5wJgZ/view">[Slides]</a></span>
+              </center> -->
+    
+    
+        <br>
+    
+          <hr>
+            <center><h2>Paper</h2></center><table align="center" width="700" px="">
+    
+              <tbody><tr>
+              <td><a href=""><img class="layered-paper-big" style="height:175px" src="./files/firstpg.png"></a></td>
+              <td><span style="font-size:12pt">Daohan Lu*, Sheng-Yu Wang*, Nupur Kumari*, Rohan Agarwal*, David Bau, Jun-Yan Zhu.</span><br>
+              <b><span style="font-size:12pt">Modelverse: Content-Based Search for Deep Generative Models.</span></b><br>
+              <span style="font-size:12pt">In Arxiv, 2022. (<a href="">Paper</a>)</span>
+              </td>
+    
+              <br>
+              <table align="center" width="600px">
+                <tbody>
+                  <tr>
+                    <td>
+                      <center>
+                        <span style="font-size:22px">
+                          <a href="./files/bibtex.txt" target="_blank">[Bibtex]</a>
+                        </span>
+                      </center>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+          <br>
+
+
+          <br><hr>
+
+        <center><h2>Method</h2></center><table align="center" width="700" px="">
+            <p>Our search system consists of a pre-caching stage (a, b) and an inference stage (c). Given a collection of
+models, (a) we first generate 50K samples for each model θn. (b) We then encode the images into image features
+and compute the 1st and 2nd order feature statistics for each model. The statistics are cached in our system for efficiency. (c) At inference
+time, we support queries of different modalities (text, image, or sketch). We encode the query into a feature vector, and assess the similarity
+between the query feature and each model’s statistics. The models with the best similarity measures are retrieved.</p>
+          <center>
+            <video width="720" muted controls preload="metadata">
+                <source src="files/method.mp4"
+                        type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+                  <!-- <img class="rounded" src="./files/teaser_video.mp4" width="1000px"> -->
+            </center>
+        <br><hr>
+
+        <center><h2>Finding the best GAN to invert real images</h2></center>
+        GAN inversion is a technique to edit real images using GANs. When we have a lot of GAN models, it is important to know which GAN can invert and edit an image well. Below, we find the most relevant model for inverting images and then interpolate in that generative model’s latent space. Selecting a relevant model leads to meaningful interpolation between the two images.
+
+        <img width='800px' src="./files/interpolation.jpg">
+
+
+          <br><hr>
+
+        <center><h2>Limitations</h2></center>
+        (Left) Sometimes, a sketch query (e.g., the bird sketch) will match models with abstract styles. It is ambiguous whether the CLIP feature should match the shape of the sketch, or the styles and textures. (Right) For conflicting multimodal queries (elephant text query + a dog image), our system has difficulty retrieving models with both concepts. There are no elephant models in the top-ranked models.
+
+        <img width='1000px' src="./files/limitation.jpg">
+
+
+          <br><hr>
+    
+            <table align="center" width="1100px">
+              <tbody><tr>
+                      <td width="400px">
+                <left>
+              <center><h2>Acknowledgements</h2></center>
+              We thank George Cazenavette and Chonghyuk (Andrew) Song for proofreading the draft. We are also grateful to Aaron Hertzmann, Maneesh Agrawala, Stefano Ermon, Chenlin Meng,  William Peebles, Richard Zhang, Phillip Isola, Taesung Park, Muyang Li, Kangle Deng, Gaurav Parmar, and Ji Lin for helpful comments and discussion. The work is partly supported by Adobe Inc., Sony Corporation, and Naver Corporation. Website template is from <a href="https://richzhang.github.io/colorization/">Colorful Colorization</a>.
+          </left>
+        </td>
+           </tr>
+        </tbody></table>
+
+    
+    
+    </body></html>

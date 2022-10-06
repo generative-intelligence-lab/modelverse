@@ -1,9 +1,10 @@
 ## Modelverse
  [**Project**](https://generative-intelligence-lab.github.io/modelverse/) | [**Paper**]() | [**Youtube**]()
 
-<p align="center">
- <img src="images/teaser_v2.png" width="400px"/>
-</p>
+
+https://user-images.githubusercontent.com/52025198/194438678-3cc767d0-5e6d-4ebc-b401-36d2a48d5f12.mov
+
+
 
 
 We develop a content-based search engine for Modelverse, a model sharing platform that contains a diverse set of deep generative models, such as animals, landscapes, portraits, and art pieces. 

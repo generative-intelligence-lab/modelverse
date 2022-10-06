@@ -20,6 +20,12 @@ model, or a combination of these.
 [Jun-Yan Zhu](https://cs.cmu.edu/~junyanz)<sup>1</sup>.
 <br> CMU<sup>1</sup>, Northeastern University<sup>2</sup>
 
+## Method
+
+
+https://user-images.githubusercontent.com/52025198/194439231-9711c8c4-6539-4c59-9a7c-e527561c0877.mov
+
+
 
 
 ## Results

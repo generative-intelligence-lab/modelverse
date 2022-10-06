@@ -32,16 +32,15 @@ model, or a combination of these.
 Our method also enables multimodal queries and using a model as a query.
 
 <p align="center">
-<img src="images/multimodal_v2.png" width="400px"/>
-<img src="images/model_sim_v1.png" width="400px"/>
+<img src="images/multimodal_v2.png" width="350px"/>
+<img src="images/model_sim_v1.png" width="350px"/>
 </p>
 
 **Image Reconstruction and Editing**
 
 <p align="center">
-<img src="images/inversion.png" width="500px"/>
-<img src="images/interpolation.png" width="500px"/>
-<img src="images/edited.png" width="500px"/>
+<img src="images/inversion.png" width="350px"/>
+<img src="images/edited.png" width="350px"/>
 </p>
 
 

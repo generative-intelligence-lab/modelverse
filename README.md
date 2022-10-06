@@ -45,7 +45,6 @@ As the number of generative models grows, it is becoming increasingly infeasible
 </p>
 
 
-## Related Works
 
 
 ## Reference

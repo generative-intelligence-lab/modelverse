@@ -52,6 +52,13 @@ Our method also enables multimodal queries and using a model as a query.
 
 If you find this useful for your research, please cite the following work.
 ```
+@article{lu2022content,
+  title={Content-Based Search for Deep Generative Models},
+  author={Lu, Daohan and Wang, Sheng-Yu and Kumari, Nupur and Agarwal, Rohan and Bau, David and Zhu, Jun-Yan},
+  journal = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {October},
+  year      = {2022}
+}
 ```
 
 Feel free to contact us with any comments or feedback.

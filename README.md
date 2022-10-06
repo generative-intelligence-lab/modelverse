@@ -11,7 +11,7 @@ We develop a content-based search engine for Modelverse, a model sharing platfor
 Through Modelverse, we introduce the problem of content-based model retrieval: given a query and a large set of generative models, finding the 
 models that best match the query. We formulate the search problem as an optimization to maximize the probability of generating a query match given 
 a model. We develop approximations to make this problem tractable when the query is an image, a sketch, a text description, another generative 
-model, or a combination of these. We demonstrate that our model search can retrieve good models for image editing and reconstruction, few-shot transfer learning, and latent space interpolation.
+model, or a combination of these. 
 <br><br><br>
 
 [Daohan Lu](https://daohanlu.github.io)<sup>*1</sup>, [Shengyu Wang](https://peterwang512.github.io/)<sup>*1</sup>, 
@@ -23,6 +23,7 @@ model, or a combination of these. We demonstrate that our model search can retri
 
 
 ## Results
+
 **Qualitative results of model retrieval** Below we show model retrieval results with 3 different modalities - images, sketches, and text.
 
 <p align="center">
@@ -36,9 +37,7 @@ Our method also enables multimodal queries and using a model as a query.
 <img src="images/model_sim_v1.png" width="500px"/>
 </p>
 
-**Image Reconstruction and Editing** Our method can also be applied to color edits. The colored strokes specify the locations to perform coloring 
-changes, while the darker region defines the region to be preserved. The edited models produce precise coloring changes in the specified parts.  
-
+**Image Reconstruction and Editing**
 
 <p align="center">
 <img src="images/inversion.png" width="500px"/>

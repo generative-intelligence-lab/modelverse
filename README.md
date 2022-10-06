@@ -26,18 +26,19 @@ model, or a combination of these.
 **Qualitative results of model retrieval**. Below we show model retrieval results with 3 different modalities - images, sketches, and text.
 
 <p align="center">
-<img src="images/main_result_v3.png" width="700px"/>
+<img src="images/main_result_v3.png" width="800px"/>
 </p>
 
-Our method also enables multimodal queries and using a model as a query.
+Our method also enables multimodal queries (left) and using a model as a query (right).
 
-
-<img src="images/multimodal_v2.png" width="700px"/>
+<p align="center">
+<img src="images/multimodal_v2.png" width="800px"/>
+</p>
 
 **Image Reconstruction and Editing**
 
 <p align="center">
-<img src="images/inversion.png" width="400px"/>
+<img src="images/interpolation.png" width="400px"/>
 <img src="images/edited.png" width="400px"/>
 </p>
 

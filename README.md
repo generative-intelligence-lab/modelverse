@@ -1,5 +1,5 @@
 ## Modelverse
- [**Project**](https://peterwang512.github.io/GANWarping/) | [**Paper**](https://arxiv.org/abs/2207.14288) | [**Youtube**](https://www.youtube.com/watch?v=2m7_rbsO6Hk) | [**Slides**](https://drive.google.com/file/d/10BD5-7WewE5ASyVqUUl65LopF8e5wJgZ/view)
+ [**Project**](https://generative-intelligence-lab.github.io/modelverse/) | [**Paper**]() | [**Youtube**]() | [**Slides**](https://nyu0-my.sharepoint.com/:p:/g/personal/dl3957_nyu_edu/EfUizfOyVmVGtAtOgUk9jBcB2MSVOXyUUu6WevdZ5UTiWg?e=xjZYIA)
 
 
 <p align="center">

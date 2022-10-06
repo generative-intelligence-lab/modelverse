@@ -29,13 +29,14 @@ model, or a combination of these.
 <img src="images/main_result_v3.png" width="800px"/>
 </p>
 
-Our method also enables multimodal queries (left) and using a model as a query (right).
+Our method also enables multimodal queries (left) and using a model as a query to find similar models (right).
 
 <p align="center">
 <img src="images/multimodal_v2.png" width="800px"/>
 </p>
 
-**Image Reconstruction and Editing**
+**Image Reconstruction and Editing**. 
+As the number of generative models grows, it is becoming increasingly infeasible for a user to know about every interesting model, and yet it can be crucial to choose the right model for their specific use. Below figure shows that selecting right generative model given a real image query results in better inversion and thereby better latent space interpolation and image-editing. 
 
 <p align="center">
 <img src="images/interpolation.png" width="400px"/>

@@ -1,6 +1,5 @@
 ## Modelverse
- [**Project**](https://generative-intelligence-lab.github.io/modelverse/) | [**Paper**]() | [**Youtube**]() | [**Slides**](https://nyu0-my.sharepoint.com/:p:/g/personal/dl3957_nyu_edu/EfUizfOyVmVGtAtOgUk9jBcB2MSVOXyUUu6WevdZ5UTiWg?e=xjZYIA)
-
+ [**Project**](https://generative-intelligence-lab.github.io/modelverse/) | [**Paper**]() | [**Youtube**]()
 
 <p align="center">
  <img src="images/teaser_v2.png" width="400px"/>

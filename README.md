@@ -1,5 +1,5 @@
 ## Modelverse
- [**Project**](https://generative-intelligence-lab.github.io/modelverse/) | [**Paper**]() | [**Youtube**](https://youtu.be/NbwdkVolxHo)
+ [**Project**](https://generative-intelligence-lab.github.io/modelverse/) | [**Youtube**](https://youtu.be/NbwdkVolxHo)
 
 
 https://user-images.githubusercontent.com/52025198/194438678-3cc767d0-5e6d-4ebc-b401-36d2a48d5f12.mov

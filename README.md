@@ -24,9 +24,9 @@ model, or a combination of these.
 
 Our search system consists of a pre-caching stage and an inference stage. Given a collection of models, we first generate 50K samples for each model. We then encode the images into image features and compute the 1st and 2nd order feature statistics for each model. The statistics are cached in our system for efficiency. At inference time, we support queries of different modalities (text, image, or sketch). We encode the query into a feature vector, and assess the similarity between the query feature and each model’s statistics. The models with the best similarity measures are retrieved. We use pretrained CLIP model as the feature extractor for both images and text and show results with other feature extractor for images in our paper. 
 
-
-https://user-images.githubusercontent.com/52025198/194439231-9711c8c4-6539-4c59-9a7c-e527561c0877.mov
-
+<p align="center">
+<img src="images/method_4.gif" width="800px"/>
+</p>
 
 
 

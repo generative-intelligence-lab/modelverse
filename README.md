@@ -7,12 +7,21 @@
 
  [Modelverse](https://modelverse.cs.cmu.edu/) is a model sharing and search platform that contains a diverse set of deep generative models such as GANs, diffusion models, and autoregressive models. This platform allows users to find, share, and study deep generative models more easily.<br>
 
+<p align="center"> 
+<b>Search by content demo</b>
+</p>
 
-https://user-images.githubusercontent.com/52025198/194438678-3cc767d0-5e6d-4ebc-b401-36d2a48d5f12.mov
+<p align="center"> 
+<img src="images/modelverse_content.gif" width="600px"/>
+</p>
 
+<p align="center"> 
+<b>Search by title/author demo</b>
+</p>
 
-
-
+<p align="center"> 
+<img src="images/modelverse_title_author.gif" width="600px"/>
+</p>
 
 Through Modelverse, we introduce the first content-based model search engine. Given a user query and a large set of generative models, we aim to the models that best match the query. The query could be an image, a sketch, a text description, another generative model, or a combination of these.
 <br>

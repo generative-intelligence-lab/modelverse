@@ -1,0 +1,17 @@
+@misc{https://doi.org/10.48550/arxiv.2210.03116,
+  doi = {10.48550/ARXIV.2210.03116},
+  
+  url = {https://arxiv.org/abs/2210.03116},
+  
+  author = {Lu, Daohan and Wang, Sheng-Yu and Kumari, Nupur and Agarwal, Rohan and Bau, David and Zhu, Jun-Yan},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), Graphics (cs.GR), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Content-Based Search for Deep Generative Models},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution 4.0 International}
+}

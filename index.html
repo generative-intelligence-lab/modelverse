@@ -63,7 +63,7 @@
       }
       td.dl-link {
         height: 160px;
-        text-align: center;
+        text-align: justify;
         font-size: 22px;
       }
       .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
@@ -109,15 +109,15 @@
     
     
     
-        <title>Modelverse: Content-Based Search for Deep Generative Models</title>
+        <title>Content-Based Search for Deep Generative Models</title>
         <meta property="og:image" content="">
-        <meta property="og:title" content="Modelverse: Content-Based Search for Deep Generative Models">
+        <meta property="og:title" content="Content-Based Search for Deep Generative Models">
       </head>
     
       <body>
             <br>
               <center>
-                <span style="font-size:34px">Modelverse: Content-Based Search for Deep Generative Models</span><br><br>
+                <span style="font-size:34px">Content-Based Search for Deep Generative Models</span><br><br>
     
               <table align="center" width="1050px">
                 <tbody><tr>
@@ -182,7 +182,7 @@
                         <span style="font-size:20px"></span>
                     </center>
                     </td>
-            </tr></tbody></table>
+            </tr></tbody></table></center>
     
               <table align="center" width="700px">
                 <tbody><tr>
@@ -194,15 +194,22 @@
                         <td align="center" width="200px">
                   <center>
 
-                    <span style="font-size:20px">Code <a href=""> [GitHub]</a></span>
+                    <span style="font-size:20px"><a href="https://github.com/generative-intelligence-lab/modelverse"> [GitHub]</a></span>
                     </center>
                     </td>
                         <td align="center" width="200px">
                   <center>
 
-                    <span style="font-size:20px">In Arxiv, 2022. <a href=""> <!-- [Paper] -->[Paper]</a></span>
+                    <span style="font-size:20px"><a href=""> <!-- [Paper] -->[Paper]</a></span>
                     </center>
                     </td>
+                      <td align="center" width="200px">
+                  <center>
+
+                    <span style="font-size:20px"><a href="https://modelverse.cs.cmu.edu"> <!-- [Paper] -->[Modelverse]</a></span>
+                    </center>
+                    </td>
+
 
 
             
@@ -215,17 +222,17 @@
                       </tr>
                       </tbody></table>
                 <br>
-                We develop a content-based search engine for Modelverse, a model sharing platform that contains a diverse set of deep
+                <p>We develop a content-based search engine for Modelverse, a model sharing platform that contains a diverse set of deep
 generative models, such as animals, landscapes, portraits, and art pieces. From left to right, our search algorithm enables queries (1st row)
 with four different modalities – text, images, sketches, and existing models. The 2nd and 3rd rows show the two top-ranked models. The
-color of each model icon implies the model type. Our method finds relevant models with similar semantic concepts in all modalities.
+color of each model icon implies the model type. Our method finds relevant models with similar semantic concepts in all modalities.</p>
                 <br>
               <br>
           <hr>
     
             <center><h2>Abstract</h2></center>
-            The growing proliferation of pretrained generative models has made it infeasible for a user to be fully cognizant of every model that exists. To address this problem, we introduce the problem of content-based model retrieval: given a query and a large set of generative models, finding the models that best match the query. Because each generative model produces a distribution of images, we formulate the search problem as an optimization to maximize the probability of generating a query match given a model. We develop approximations to make this problem tractable when the query is an image, a sketch, a text description, another generative model, or a combination of the above. % multimodal query. 
-            We benchmark our methods in both accuracy and speed over a set of generative models. We further demonstrate that our model search can retrieve good models for image editing and reconstruction, few-shot transfer learning, and latent space interpolation. <br>
+            <p>The growing proliferation of pretrained generative models has made it infeasible for a user to be fully cognizant of every model that exists. To address this problem, we introduce the problem of content-based model retrieval: given a query and a large set of generative models, finding the models that best match the query. Because each generative model produces a distribution of images, we formulate the search problem as an optimization to maximize the probability of generating a query match given a model. We develop approximations to make this problem tractable when the query is an image, a sketch, a text description, another generative model, or a combination of the above. % multimodal query. 
+            We benchmark our methods in both accuracy and speed over a set of generative models. We further demonstrate that our model search can retrieve good models for image editing and reconstruction, few-shot transfer learning, and latent space interpolation.</p> <br>
 
             <hr><center><h2>Modelverse: search engine for generative models</h2></center>
           <center>
@@ -237,7 +244,7 @@ color of each model icon implies the model type. Our method finds relevant model
                   <!-- <img class="rounded" src="./files/teaser_video.mp4" width="1000px"> -->
             </center>
 
-            <a href="https://modelverse.cs.cmu.edu"><p style="font-size: 24px;">[Click here to try out Modelverse!!]</p></a><br><hr>
+            <center><a href="https://modelverse.cs.cmu.edu"><p style="font-size: 24px;">[Click here to try out Modelverse!!]</p></a></center><br><hr>
             <br>
 
             <center><h2 id="slides_video">Video</h2></center>
@@ -282,7 +289,7 @@ color of each model icon implies the model type. Our method finds relevant model
 
         <center><h2>Method</h2></center><table align="center" width="700" px="">
             <p>Our search system consists of a pre-caching stage (a, b) and an inference stage (c). Given a collection of
-models, (a) we first generate 50K samples for each model θn. (b) We then encode the images into image features
+models, (a) we first generate 50K samples for each model. (b) We then encode the images into image features
 and compute the 1st and 2nd order feature statistics for each model. The statistics are cached in our system for efficiency. (c) At inference
 time, we support queries of different modalities (text, image, or sketch). We encode the query into a feature vector, and assess the similarity
 between the query feature and each model’s statistics. The models with the best similarity measures are retrieved.</p>
@@ -299,7 +306,7 @@ between the query feature and each model’s statistics. The models with the bes
         <center><h2>Finding the best GAN to invert real images</h2></center>
         GAN inversion is a technique to edit real images using GANs. When we have a lot of GAN models, it is important to know which GAN can invert and edit an image well. Below, we find the most relevant model for inverting images and then interpolate in that generative model’s latent space. Selecting a relevant model leads to meaningful interpolation between the two images.
 
-        <img width='800px' src="./files/interpolation.jpg">
+        <center><img width='800px' src="./files/interpolation.jpg"></center>
 
 
           <br><hr>
@@ -307,8 +314,7 @@ between the query feature and each model’s statistics. The models with the bes
         <center><h2>Limitations</h2></center>
         (Left) Sometimes, a sketch query (e.g., the bird sketch) will match models with abstract styles. It is ambiguous whether the CLIP feature should match the shape of the sketch, or the styles and textures. (Right) For conflicting multimodal queries (elephant text query + a dog image), our system has difficulty retrieving models with both concepts. There are no elephant models in the top-ranked models.
 
-        <img width='1000px' src="./files/limitation.jpg">
-
+        <center><img width='1000px' src="./files/limitation.jpg"></center>
 
           <br><hr>
     

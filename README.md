@@ -70,8 +70,7 @@ If you find this useful for your research, please cite the following work.
 @article{lu2022content,
   title={Content-Based Search for Deep Generative Models},
   author={Lu, Daohan and Wang, Sheng-Yu and Kumari, Nupur and Agarwal, Rohan and Bau, David and Zhu, Jun-Yan},
-  journal = {arXiv preprint},
-  month     = {October},
+  journal = {arXiv preprint arXiv:2210.03116},
   year      = {2022}
 }
 ```

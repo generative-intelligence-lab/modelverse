@@ -1,6 +1,6 @@
-## Modelverse
+# Modelverse
 
- [**Website**](https://modelverse.cs.cmu.edu/) | [**Project**](https://generative-intelligence-lab.github.io/modelverse/) | [**Paper**](https://arxiv.org/abs/2210.03116) | [**Youtube**](https://youtu.be/smm0t81st_w)
+ [**Website**](https://modelverse.cs.cmu.edu/) | [**Project**](https://generative-intelligence-lab.github.io/modelverse/) | [**Paper**](https://arxiv.org/abs/2210.03116) | [**Youtube**](https://youtu.be/smm0t81st_w) | [**Discord**](https://discord.gg/4ARdnzDD)
 
 
 https://user-images.githubusercontent.com/52025198/194438678-3cc767d0-5e6d-4ebc-b401-36d2a48d5f12.mov
@@ -8,10 +8,14 @@ https://user-images.githubusercontent.com/52025198/194438678-3cc767d0-5e6d-4ebc-
 
 
 
-[Modelverse](https://modelverse.cs.cmu.edu/) is a model sharing and search platform that contains a diverse set of deep generative models such as GANs, diffusion models, and autoregressive models. This platform allows users to find, share, and study deep generative models more easily.
-Through Modelverse, we introduce the first content-based model search engine. Given a user query and a large set of generative models, we aim to the models that best match the query. The query could be an image, a sketch, a text description, another generative model, or a combination of these.
-<br><br><br>
+[Modelverse](https://modelverse.cs.cmu.edu/) is a model sharing and search platform that contains a diverse set of deep generative models such as GANs, diffusion models, and autoregressive models. This platform allows users to find, share, and study deep generative models more easily.<br>
 
+
+Through Modelverse, we introduce the first content-based model search engine. Given a user query and a large set of generative models, we aim to the models that best match the query. The query could be an image, a sketch, a text description, another generative model, or a combination of these.
+<br>
+
+Content-Based Search for Deep Generative Models
+<br>
 [Daohan Lu](https://daohanlu.github.io)<sup>1*</sup>, [Sheng-Yu Wang](https://peterwang512.github.io/)<sup>1*</sup>,
 [Nupur Kumari](https://nupurkmr9.github.io/)<sup>1*</sup>, [Rohan Agarwal](https://rohana96.github.io/)<sup>1*</sup>,
 [David Bau](https://baulab.info/)<sup>2</sup>,
@@ -19,7 +23,7 @@ Through Modelverse, we introduce the first content-based model search engine. Gi
 <br> Carnegie Mellon University<sup>1</sup>, Northeastern University<sup>2</sup>
 <br>arXiv:2210.03116, 2022
 
-## Method
+## Method Overview
 
 Our search system consists of a pre-caching stage and an inference stage. Given a collection of models, we first generate 50K samples for each model. We then encode the images into image features and compute the 1st and 2nd order feature statistics for each model. The statistics are cached in our system for efficiency. At inference time, we support queries of different modalities (text, image, or sketch). We encode the query into a CLIP feature vector, and assess the similarity between the query feature and each model’s statistics. The models with the best similarity measures are retrieved.
 
@@ -29,7 +33,7 @@ Our search system consists of a pre-caching stage and an inference stage. Given 
 
 
 
-## Results
+## Search Results
 
 **Qualitative results of model retrieval**. Below we show model retrieval results with three different modalities - images, sketches, and text.
 
@@ -53,6 +57,10 @@ As the number of generative models grows, it is becoming increasingly infeasible
 
 
 
+## Feedback
+We are constantly improving our search engine and incorporating additional features to Modelverse. If you encounter issues of our current system or have interesting features in your mind, please reach out to us. You can either fill in the feedback [form](https://forms.gle/NvBcooZh1s5gDMG59) or join our [Discord](https://discord.gg/4ARdnzDD) discussion group.  Your feedback and suggestions will be greatly appreciated
+
+
 
 ## Reference
 
@@ -66,5 +74,3 @@ If you find this useful for your research, please cite the following work.
   year      = {2022}
 }
 ```
-
-Feel free to contact us with any comments or feedback.

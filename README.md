@@ -18,7 +18,7 @@ model, or a combination of these.
 [Nupur Kumari](https://nupurkmr9.github.io/)<sup>*1</sup>, [Rohan Agarwal](https://rohana96.github.io/)<sup>*1</sup>, 
 [David Bau](https://baulab.info/)<sup>2</sup>, 
 [Jun-Yan Zhu](https://cs.cmu.edu/~junyanz)<sup>1</sup>.
-<br> CMU<sup>1</sup>, Northeastern University<sup>2</sup>
+<br> Carnegie Mellon University<sup>1</sup>, Northeastern University<sup>2</sup>
 
 ## Method
 

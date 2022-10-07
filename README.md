@@ -14,7 +14,7 @@ a model. We develop approximations to make this problem tractable when the query
 model, or a combination of these. 
 <br><br><br>
 
-[Daohan Lu](https://daohanlu.github.io)<sup>*1</sup>, [Shengyu Wang](https://peterwang512.github.io/)<sup>*1</sup>, 
+[Daohan Lu](https://daohanlu.github.io)<sup>*1</sup>, [Sheng-Yu Wang](https://peterwang512.github.io/)<sup>*1</sup>, 
 [Nupur Kumari](https://nupurkmr9.github.io/)<sup>*1</sup>, [Rohan Agarwal](https://rohana96.github.io/)<sup>*1</sup>, 
 [David Bau](https://baulab.info/)<sup>2</sup>, 
 [Jun-Yan Zhu](https://cs.cmu.edu/~junyanz)<sup>1</sup>.

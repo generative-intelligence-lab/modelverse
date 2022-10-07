@@ -12,7 +12,7 @@
 </p>
 
 <p align="center"> 
-<img src="images/modelverse_content.gif" width="600px"/>
+<img src="images/modelverse_content.gif" width="700px"/>
 </p>
 
 <p align="center"> 
@@ -20,7 +20,7 @@
 </p>
 
 <p align="center"> 
-<img src="images/modelverse_title_author.gif" width="600px"/>
+<img src="images/modelverse_title_author.gif" width="700px"/>
 </p>
 
 Through Modelverse, we introduce the first content-based model search engine. Given a user query and a large set of generative models, we aim to the models that best match the query. The query could be an image, a sketch, a text description, another generative model, or a combination of these.

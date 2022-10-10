@@ -37,7 +37,7 @@ Content-Based Search for Deep Generative Models
 
 ## Getting Started 
 
-- Search models via text/image queries as shown in above demo. e.g. https://modelverse.cs.cmu.edu/?q=wild+animals
+- Search models via text/image queries as shown in above demo. E.g. text query https://modelverse.cs.cmu.edu/?q=wild+animals
 - Search models via paper title: https://modelverse.cs.cmu.edu/?q=title:anycost
 - Search models via author: https://modelverse.cs.cmu.edu/?q=author:+tero+karras
 

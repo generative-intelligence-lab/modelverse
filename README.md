@@ -49,7 +49,7 @@ Content-Based Search for Deep Generative Models
 </p>
 
 
-- Search models via paper title: https://modelverse.cs.cmu.edu/?q=title:anycost
+- Search models via paper title: https://modelverse.cs.cmu.edu/?q=title:+diffusion+
 <p align="center"> 
 <img src="images/title_search.png" width="700px"/>
 </p>

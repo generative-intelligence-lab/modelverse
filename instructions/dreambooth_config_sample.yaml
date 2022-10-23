@@ -2,7 +2,7 @@ email_address: abcd@abc.edu # YOUR (uploader's) email address. Used to track sub
 visual_description: Sculptures of a canine king  # What kind of images does your model generate?
 project_description: king dog sculpture on Stable Diffusion via Dreambooth # Briefly describe how you produced the results
 family_name: Stable Diffusion Model  # What architecture the model is based on
-project_link: https://huggingface.co/sd-dreambooth-library/king-dog-sculpture # Link to YOUR project page if you fine-tuned the model, otherwise the original paper's GitHub repo or project site.
+project_link: https://dreambooth.github.io/ # Link to YOUR project page if you fine-tuned the model, otherwise the original paper's GitHub repo or project site.
 download_link:  # Link to your shared model weights file (e.g. a Google Drive or Dropbox URL).
 paper: https://arxiv.org/abs/2208.12242 # Link to the paper
 creator: [person a, person b] # If the model has been fine-tuned by someone other than the authors, fill in its creator's name(s).

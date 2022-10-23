@@ -1,0 +1,14 @@
+email_address: abcd@abc.edu # YOUR (uploader's) email address. Used to track submissions's ownership
+visual_description: High quality human faces  # What kind of images does your model generate?
+project_description: StyleGAN3-r model trained on the Flickr-Faces-HQ Dataset # Briefly describe how you produced the results
+family_name: StyleGAN3  # What architecture the model is based on
+project_link: https://github.com/NVlabs/stylegan3 # Link to YOUR project page if you fine-tuned the model, otherwise the original paper's GitHub repo or project site.
+download_link: https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/files/stylegan3-r-ffhq-1024x1024.pkl # Link to your shared model weights file (e.g. a Google Drive or Dropbox URL).
+paper: https://arxiv.org/abs/2106.12423 # Link to the paper
+creator: [person a, person b] # If the model has been fine-tuned by someone other than the authors, fill in its creator's name(s).
+bibtex: '@misc{2106.12423, Author = {Tero Karras and Miika Aittala and Samuli Laine
+  and Erik Härkönen and Janne Hellsten and Jaakko Lehtinen and Timo
+  Aila}, Title = {Alias-Free Generative Adversarial Networks}, Year = {2021}, Eprint
+  = {arXiv:2106.12423}, }' # bibtex for the original paper
+display_name: Stylegan3 FFHQ Faces # A user-friendly name for your model. This is the name shown to visitors.
+resolution: [1024] # The output resolution(s) of your model.

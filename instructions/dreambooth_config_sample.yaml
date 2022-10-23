@@ -1,0 +1,14 @@
+email_address: abcd@abc.edu # YOUR (uploader's) email address. Used to track entry's ownership
+visual_description: Sculptures of a canine king  # What kind of images does your model generate?
+project_description: king dog sculpture on Stable Diffusion via Dreambooth # Briefly describe how you produced the results
+family_name: Stable Diffusion Model  # What architecture the model is based on
+project_link: https://dreambooth.github.io/  # Link to YOUR page if you fine-tuned the model, otherwise the paper's GitHub repo, HuggingFace page, or website.
+download_link:  # Link to your shared model weights file (e.g. a Google Drive or Dropbox URL).
+paper: https://arxiv.org/abs/2208.12242 # Link to the paper
+creator: [person a, person b] # If the model has been fine-tuned by someone other than the authors, fill in its creator's name(s).
+bibtex: '@article{ruiz2022dreambooth, title={DreamBooth: Fine Tuning Text-to-image
+  Diffusion Models for Subject-Driven Generation}, author={Ruiz, Nataniel and Li,
+  Yuanzhen and Jampani, Varun and Pritch, Yael and Rubinstein, Michael and Aberman,
+  Kfir}, booktitle={arXiv preprint arxiv:2208.12242}, year={2022} }' # bibtex for the original paper
+display_name: Dreambooth King Dog Sculpture # A user-friendly name for your model. This is the name shown to visitors. Matches ^[\w][\w\-_ ]*[\w]$.
+resolutions: [512] # The output resolution(s) of your model.

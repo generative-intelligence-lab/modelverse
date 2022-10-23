@@ -2,7 +2,7 @@ email_address: abcd@abc.edu # YOUR (uploader's) email address. Used to track sub
 visual_description: High quality images of human faces  # What kind of images does your model generate?
 project_description: Nvidia's StyleGAN2 model trained on the Flickr-Faces-HQ Dataset  # Briefly describe how you produced the results
 family_name: StyleGAN2  # What architecture the model is based on
-project_link: https://github.com/NVlabs/stylegan2  # Link to YOUR page if you fine-tuned the model, otherwise the paper's GitHub repo, HuggingFace page, or website.
+project_link: https://github.com/NVlabs/stylegan2  # Link to YOUR page if you fine-tuned the model, otherwise the paper's GitHub repo or project website.
 download_link: https://drive.google.com/drive/folders/1QHc-yF5C3DChRwSdZKcx1w6K8JvSxQi7  # Link to where you can download the model
 paper: https://arxiv.org/abs/1912.04958 # Link to the paper
 creator: [person a, person b] # If the model has been fine-tuned by someone other than the authors, fill in its creator's name(s).

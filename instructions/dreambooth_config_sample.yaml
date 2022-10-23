@@ -10,5 +10,5 @@ bibtex: '@article{ruiz2022dreambooth, title={DreamBooth: Fine Tuning Text-to-ima
   Diffusion Models for Subject-Driven Generation}, author={Ruiz, Nataniel and Li,
   Yuanzhen and Jampani, Varun and Pritch, Yael and Rubinstein, Michael and Aberman,
   Kfir}, booktitle={arXiv preprint arxiv:2208.12242}, year={2022} }' # bibtex for the original paper
-display_name: Dreambooth King Dog Sculpture # A user-friendly name for your model. This is the name shown to visitors. Matches ^[\w][\w\-_ ]*[\w]$.
+display_name: Dreambooth King Dog Sculpture # A user-friendly name for your model. This is the name shown to visitors.
 resolutions: [512] # The output resolution(s) of your model.

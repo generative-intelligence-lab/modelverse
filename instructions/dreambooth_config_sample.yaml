@@ -1,4 +1,4 @@
-email_address: abcd@abc.edu # YOUR (uploader's) email address. Used to track entry's ownership
+email_address: abcd@abc.edu # YOUR (uploader's) email address. Used to track submissions's ownership
 visual_description: Sculptures of a canine king  # What kind of images does your model generate?
 project_description: king dog sculpture on Stable Diffusion via Dreambooth # Briefly describe how you produced the results
 family_name: Stable Diffusion Model  # What architecture the model is based on

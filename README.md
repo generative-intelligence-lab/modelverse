@@ -2,7 +2,7 @@
 
  [**Website**](https://modelverse.cs.cmu.edu/) | [**Project**](https://generative-intelligence-lab.github.io/modelverse/) | [**Paper**](https://arxiv.org/abs/2210.03116) | [**Youtube**](https://youtu.be/smm0t81st_w) | [**Discord**](https://discord.gg/4ARdnzDD)
 
-### The PyTorch code of model search algorithm will be coming soon!
+**Nov 9th 2022 Update** Code and dataset released.
 
 
  [Modelverse](https://modelverse.cs.cmu.edu/) is a model sharing and search platform that contains a diverse set of deep generative models such as GANs, diffusion models, and autoregressive models. This platform allows users to find, share, and study deep generative models more easily.<br>
@@ -85,6 +85,59 @@ Our method also enables multimodal queries (left) and using a model as a query t
 <img src="images/multimodal_v2.png" width="800px"/>
 </p>
 
+
+## Getting Started
+
+### Clone our repo
+```bash
+git clone git@github.com:generative-intelligence-lab/modelverse_backend.git
+```
+### Set up conda environment
+
+```bash
+conda env create -f environment.yaml
+conda activate modelsearch
+```
+
+### Download model features and query data
+```bash
+# Download model features and statistics
+python model_features/download_model_features.py
+
+# Download query data
+python query_data/download_query_data.py
+```
+
+### Quick start
+To quickly try out our method with your query:
+```bash
+# model search using a text query
+python demo.py --query_type text --input anime
+
+# model search using an image query
+python demo.py --query_type image --input examples/bedroom.jpg
+
+# model search using a sketch query
+python demo.py --query_type sketch --input examples/sketch_human_with_glasses.png
+```
+
+### Evaluation
+
+This command will run evaluation according to the queries in `query_data`. The output will be saved into `result.csv`.
+
+```bash
+python eval.py
+```
+
+### Get your own model features
+
+To get features statistics from your own model. First generate 50k samples in a folder (`<your_image_samples>`), and decide a name for your model (`<your_model_name>`) 
+
+```bash
+python gather_feats_and_stats.py --model_name <your_model_name> --model_image_folder <your_image_samples>
+```
+
+The features will be stored in `my_model_features` by default.
 
 
 ## Feedback

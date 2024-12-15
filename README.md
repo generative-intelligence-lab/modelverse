@@ -149,11 +149,21 @@ We are constantly improving our search engine and incorporating additional featu
 
 If you find this useful for your research, please cite the following work.
 ```
-@inproceedings{lu2023content,
-  title={Content-based search for deep generative models},
-  author={Lu, Daohan and Wang, Sheng-Yu and Kumari, Nupur and Agarwal, Rohan and Tang, Mia and Bau, David and Zhu, Jun-Yan},
-  booktitle={SIGGRAPH Asia 2023 Conference Papers},
-  pages={1--12},
-  year={2023}
+@inproceedings{10.1145/3610548.3618189,
+author = {Lu, Daohan and Wang, Sheng-Yu and Kumari, Nupur and Agarwal, Rohan and Tang, Mia and Bau, David and Zhu, Jun-Yan},
+title = {Content-based Search for Deep Generative Models},
+year = {2023},
+isbn = {9798400703157},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3610548.3618189},
+doi = {10.1145/3610548.3618189},
+abstract = {The growing proliferation of customized and pretrained generative models has made it infeasible for a user to be fully cognizant of every model in existence. To address this need, we introduce the task of content-based model search: given a query and a large set of generative models, finding the models that best match the query. As each generative model produces a distribution of images, we formulate the search task as an optimization problem to select the model with the highest probability of generating similar content as the query. We introduce a formulation to approximate this probability given the query from different modalities, e.g., image, sketch, and text. Furthermore, we propose a contrastive learning framework for model retrieval, which learns to adapt features for various query modalities. We demonstrate that our method outperforms several baselines on Generative Model Zoo, a new benchmark we create for the model retrieval task.},
+booktitle = {SIGGRAPH Asia 2023 Conference Papers},
+articleno = {71},
+numpages = {12},
+keywords = {Artificial Intelligence, Imaging \& Video, Machine Learning},
+location = {<conf-loc>, <city>Sydney</city>, <state>NSW</state>, <country>Australia</country>, </conf-loc>},
+series = {SA '23}
 }
 ```

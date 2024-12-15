@@ -1,6 +1,6 @@
 # Modelverse
 
- [**Website**](https://modelverse.cs.cmu.edu/) | [**Project**](https://generative-intelligence-lab.github.io/modelverse/) | [**Paper**](https://arxiv.org/abs/2210.03116) | [**Youtube**](https://youtu.be/smm0t81st_w) | [**Discord**](https://discord.gg/BVuSFBB3bv)
+[**Website**](https://modelverse.cs.cmu.edu/) | [**Project**](https://generative-intelligence-lab.github.io/modelverse/) | [**Paper**](https://arxiv.org/abs/2210.03116) | [**Youtube**](https://youtu.be/smm0t81st_w) | [**Discord**](https://discord.gg/BVuSFBB3bv)
 
 **Nov 9th 2022 Update** Code and dataset released.
 
@@ -33,7 +33,7 @@ Content-Based Search for Deep Generative Models
 [David Bau](https://baulab.info/)<sup>2</sup>,
 [Jun-Yan Zhu](https://cs.cmu.edu/~junyanz)<sup>1</sup>.
 <br> Carnegie Mellon University<sup>1</sup>, Northeastern University<sup>2</sup>
-<br>arXiv:2210.03116, 2022
+<br>SIGGRAPH Asia, 2023
 
 ## Getting Started 
 
@@ -149,10 +149,11 @@ We are constantly improving our search engine and incorporating additional featu
 
 If you find this useful for your research, please cite the following work.
 ```
-@article{lu2022content,
-  title={Content-Based Search for Deep Generative Models},
-  author={Lu, Daohan and Wang, Sheng-Yu and Kumari, Nupur and Agarwal, Rohan and Bau, David and Zhu, Jun-Yan},
-  journal = {arXiv preprint arXiv:2210.03116},
-  year      = {2022}
+@inproceedings{lu2023content,
+  title={Content-based search for deep generative models},
+  author={Lu, Daohan and Wang, Sheng-Yu and Kumari, Nupur and Agarwal, Rohan and Tang, Mia and Bau, David and Zhu, Jun-Yan},
+  booktitle={SIGGRAPH Asia 2023 Conference Papers},
+  pages={1--12},
+  year={2023}
 }
 ```
